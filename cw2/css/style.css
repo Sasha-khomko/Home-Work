@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+img {
+    display: block;
+    position: absolute;
+}
+.avatar {
+    width: 360px;
+    height: 390px;
+    position: relative;
+    margin: 10px;
+    background: rgba(238, 130, 238, 0.4);
+}
+.hair {
+    top: 0;
+    left: 0;
+}
+.hair:hover svg * {
+
+}
+.body {
+    bottom: 0;
+    left: 20px;
+    z-index: -1;
+}
+.eye {
+    top: 145px;
+    left: 130px;
+}
+.nose {
+    top: 155px;
+    left: 160px;
+}
+.mouth {
+    top: 200px;
+    left: 140px;
+}
+.beard {
+    top: 180px;
+    left: 90px;
+    z-index: 1;
+    position: absolute;
+}
+.beard:hover svg * {
+    fill: aqua;
+}
+.sweater {
+    bottom: 0;
+    left: 20px;
+}

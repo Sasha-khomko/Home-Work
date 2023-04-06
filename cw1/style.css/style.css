@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Montserrat:wght@100;700&family=Open+Sans&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #0001;
+    font-family: "Montserrat";
+}
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    background: #fff;
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+}
+.container__header{
+    text-align: center;
+    font-family: 'Arvo';
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 48px;
+    color: #212121;
+    margin-top: 141px;
+}
+.container__selector{
+    list-style: none;
+    display: flex;
+    max-width: 323px;
+    width: 100%;
+    margin-top: 31px;
+    margin-left: auto;
+    margin-right: auto;
+    text-transform: uppercase;
+    justify-content: space-around;
+    border: 2px solid #eeeeee;
+    border-radius: 23.5px;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 2.4px;
+    color: #9FA3A7;
+
+    
+}
+.container__selector li {
+    padding: 12px 20px;
+}
+.container__selector .active {
+    background: #eeeeee;
+    color: #212121;
+}
+.container__elems {
+    display: flex;
+    max-width: 864px;
+    width: 100%;
+    margin: 49px auto 140px;
+    justify-content: space-between;
+
+}
+.container__elem {
+    max-width: 224px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container__elem .img {
+    height: 60px;
+}
+img {
+    display: block;
+    height: 100%;
+}
+.elem__header {
+    margin-top: 20px;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 2.4px;
+    color: #212121;
+
+}
+.elem__text {
+    margin-top: 17px;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    color: #9fa3a7;
+}
